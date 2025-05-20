@@ -11,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class SpringJekinsApplicationTests {
 	public static Logger logger=LoggerFactory.getLogger(SpringJekinsApplicationTests.class);
 	@Test
-	void contextLoads() {
+	 contextLoads() {
 		logger.info("test case executing..!!");
 		logger.info("test case executing.second log.!!");
 		assertEquals(true, true);
